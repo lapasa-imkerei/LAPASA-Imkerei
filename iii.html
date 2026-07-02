@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum – LAPASA Imkerei</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            min-height: 100vh;
+            background-color: #fdf3e3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'DM Sans', sans-serif;
+            color: #5c3d11;
+            padding: 3rem 2rem;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='69' viewBox='0 0 60 69'%3E%3Cpolygon points='30,2 58,17 58,52 30,67 2,52 2,17' fill='none' stroke='%23c8860a' stroke-width='0.8' opacity='0.12'/%3E%3C/svg%3E");
+            background-size: 60px 69px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 480px;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 0.3rem;
+        }
+
+        .subtitle {
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+            color: #c8860a;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .divider {
+            width: 40px;
+            height: 2px;
+            background: #c8860a;
+            margin-bottom: 2.5rem;
+            border-radius: 2px;
+            opacity: 0.5;
+        }
+
+        .block {
+            margin-bottom: 2rem;
+        }
+
+        .block-label {
+            font-size: 0.72rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #c8860a;
+            opacity: 0.8;
+            margin-bottom: 0.6rem;
+        }
+
+        .block p {
+            font-size: 0.95rem;
+            font-weight: 300;
+            line-height: 1.9;
+        }
+
+        .block a {
+            color: #5c3d11;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(92,61,17,0.3);
+            transition: border-color 0.2s;
+        }
+        .block a:hover {
+            border-color: #c8860a;
+        }
+
+        .back {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #5c3d11;
+            text-decoration: none;
+            opacity: 0.5;
+            transition: opacity 0.2s;
+        }
+        .back:hover { opacity: 1; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Impressum</h1>
+        <p class="subtitle">LAPASA Imkerei</p>
+        <div class="divider"></div>
+
+        <div class="block">
+            <div class="block-label">Betreiber</div>
+            <p>
+                Lacher Sandra &amp; Lacher Patrizia<br>
+                Scheiterbachstraße 22<br>
+                5230 Mattighofen, Austria
+            </p>
+        </div>
+
+        <div class="block">
+            <div class="block-label">Kontakt</div>
+            <p>
+                Telefon: <a href="tel:+436509218871">+43 650 9218871</a><br>
+                E-Mail: <a href="mailto:imkerei.lapasa@gmail.com">imkerei.lapasa@gmail.com</a>
+            </p>
+        </div>
+
+        <a class="back" href="index.html">← Zurück</a>
+    </div>
+</body>
+</html>
