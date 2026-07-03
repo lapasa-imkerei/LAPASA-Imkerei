@@ -1,0 +1,25 @@
+﻿Artikelnumer;Name;Einheit;Bestand;Bestand aktiviert;Umsatzsteuer;Einkaufspreis;Verkaufspreis;Kategorie;Beschreibung
+1023;Bienenkerze;g;0,00;1;0,00;0,00;0,00;Standard;Preis je nach Gewicht
+1022;Bienenwachs;g;0,00;1;0,00;0,00;0,00;Standard;Individueller Preis je nach gewünschter Menge
+1021;Seife;Stk;0,00;1;0,00;0,00;8,00;Standard;Honig-Bienenwachs 100 g
+1020;Seife;Stk;0,00;1;0,00;0,00;10,00;Standard;Honig-Bienenwachs 100 g
+1019;Seife;Stk;0,00;1;0,00;0,00;6,00;Standard;Honig-Bienenwachsseife 70 g
+1018;Melura Lippenpflege;Stk;0,00;1;0,00;0,00;5,00;Standard;Lippenpflege mit Honig und Ringelblume 5 g
+1017;Melissia Lippenpflege;Stk;0,00;1;0,00;0,00;5,00;Standard;Lippenpflege mit Honig und Melisse 5 g
+1016;Honig mit Geschmack;Stk;0,00;1;0,00;0,00;6,00;Standard;Verschiedene Geschmackssorten 250g
+1015;Hochzeitsgeschenk Honigglas 50g;Stk;0,00;1;0,00;0,00;3,50;Standard;Kleines Honiggläschen mit individuellen Etikett; Händler Informationen über QR Code
+1014;Propolistropfen;Stk;0,00;1;0,00;0,00;14,90;Standard;30 ml
+1013;Oxymel VitaElixia;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1012;Oxymel PollenElixia;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1011;Oxymel CyclElixia;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1010;Oxymel CorElixia;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1009;Oxymel AronElixia;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1008;Oxymel SambuccusElixia;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1007;Oxymel AbendFlora;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1006;Oxymel SIMPLEX;Stk;0,00;1;0,00;0,00;11,00;Standard;300 ml
+1005;Oxymel PurisElixia;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1004;Oxymel HerbFlora;Stk;0,00;1;0,00;0,00;16,00;Standard;300 ml
+1003;Oxymel FEMELIXIA;Stk;0,00;1;0,00;0,00;16,00;Standard;300ml
+1002;Honig;kg;0,00;1;0,00;0,00;5,00;Standard;0.25 kg Wald und/oder Blütenhonig
+1001;Honig;kg;0,00;1;0,00;0,00;8,00;Standard;0.5 kg Wald und/oder Blütenhonig
+1000;Honig;kg;0,00;1;0,00;0,00;16,00;Standard;1 kg Wald und/oder Blütenhonig
